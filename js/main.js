@@ -90,3 +90,11 @@ $(window).scroll(function() {
 /* */
 
 new WOW().init();
+
+
+
+/* close humb navbar*/
+
+$('.navbar-nav>li>a').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
+});
